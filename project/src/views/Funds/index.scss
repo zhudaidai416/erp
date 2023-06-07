@@ -1,0 +1,32 @@
+// ========================== 每个页面公共部分 ==========================
+// 公共部分留白
+.page-content {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+// 操作按钮
+.operate {
+  margin-bottom: 20px;
+}
+
+.operate-btn {
+  margin-right: 10px;
+}
+
+// 搜索框
+.search-form {
+  display: flex;
+  flex-direction: row;
+
+  .search-form-item {
+    margin-right: 20px;
+  }
+}
+
+// 分页
+.pagination {
+  margin-top: 20px;
+  text-align: right;
+}

@@ -1,0 +1,41 @@
+.modal-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .modal-form-item {
+    width: 50%;
+
+    .ant-form-item-row {
+      display: flex;
+      flex-direction: row;
+      padding-right: 20px;
+
+      .ant-form-item-label {
+        width: 70px;
+        padding: 0;
+        line-height: 32px;
+        text-align: justify;
+        text-align-last: justify;
+      }
+
+      .ant-form-item-control {
+        flex: 1;
+      }
+    }
+
+    .modal-form:nth-last-child(2) {
+      width: 100% !important;
+    }
+
+    .modal-form:last-child {
+      width: 100% !important;
+    }
+  }
+
+  .word-prompt {
+    font-size: 13px;
+    color: gray;
+  }
+}

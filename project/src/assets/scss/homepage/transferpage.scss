@@ -1,0 +1,208 @@
+// 背景
+.over{
+    background-color: #f5f9ff;
+    display: flex;
+    justify-content: center;
+}
+// 居中大盒子
+.over_da{
+    width: 1100px;
+    height: 100%;
+    // background-color: bisque;
+}
+// 顶部选择店铺
+.da_top{
+    width: 100%;
+    height: 80px;
+    // background-color: rgb(56, 179, 179);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_left{
+    font-size: 20px;
+}
+.top_right{
+    a {
+        color: black;
+    }
+    a:hover{
+        color: blue;
+    }
+}
+// 头像
+.da_tou{
+    width: 100%;
+    height: 110px;
+    background-color: #e9f2ff;
+}
+.tou_xian{
+    width: 500px;
+    height: 100%;
+    // background-color: aqua;
+    display: flex;
+}
+.xian_pia{
+    width: 110px;
+    height: 100%;
+    // background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pia_yuan{
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yuan_xian{
+    background-image: url(../../images/小豪豪.jpg);
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+    border-radius: 50%;
+}
+.xian_zi{
+    width: 200px;
+    height: 100%;
+    // background-color: aquamarine;
+}
+.zi_yi{
+    margin-top: 25px;
+    font-size: 18px;
+    color: black;
+}
+.zi_er{
+    margin-top: 4px;
+    color: rgb(157, 155, 155);
+}
+// 搜索
+.da_sou{
+    width: 100%;
+    height: 100px;
+    // background-color: azure;
+    display: flex;
+    justify-content: flex-end;
+}
+.sou_you{
+    // background-color: #ffffff;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+// 表
+.da_bio{
+    width: 100%;
+    height: 520px;
+    // background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.bio_one{
+    width: 100%;
+    height: 150px;
+    // background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.one_yi{
+    width: 350px;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-box-shadow:0px 0px 2px 1px #e6e5e5 ;
+    -moz-box-shadow:0px 0px 2px 1px #e6e5e5 ;
+    box-shadow:0px 0px 2px 1px #e6e5e5 ;
+}
+.one_yi:hover{
+    -webkit-box-shadow:0px 0px 14px 1px #dfdddd ;
+    -moz-box-shadow:0px 0px 14px 1px #dfdddd ;
+    box-shadow:0px 0px 14px 1px #dfdddd ;
+    b{
+        color: #006eff;
+    }
+}
+.yi_left{
+    width: 5px;
+    height: 100%;
+    background-color: blue;
+}
+.yi_right{
+    // background-color: beige;
+    width: 345px;
+    height: 100%;
+}
+.right_shang{
+    width: 100%;
+    height: 50px;
+    // background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+.right_xia{
+    width: 100%;
+    height: 50px;
+    // background-color: antiquewhite;
+}
+.shang_left{
+    width: 200px;
+    height: 100%;
+    // background-color: azure;
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.shang_right{
+    width: 100px;
+    height: 100%;
+    // background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_fen{
+    width: 50px;
+    height: 25px;
+    background-color: #fef0f0;
+    border-radius: 20px;
+    border: 1px solid #f46363;
+    color: #f46363;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.right_fen:hover{
+    background-color: #a3c6da;
+}
+.xia_zi{
+    color: #999999;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.xia_end{
+    margin-left: 14px;
+    margin-top: -15px;
+    color: #ffffff;
+    font-size: 12px;
+}
+// 页码
+.da_ye{
+    margin-top: 20px;
+    margin-left: 828px;
+}
+// 最下面
+.da_end{
+    margin-left: 480px;
+}

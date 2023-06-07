@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  p {
+    margin: 0;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+// MyLayout 部分
+// 菜单 Menu 样式
+.logo {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fff;
+  border-radius: 50px;
+  margin: 20px 10px 40px 10px;
+  text-align: center;
+  font-weight: 600;
+  color: #006eff;
+}
+
+.menu1 {
+  & .ant-menu-item {
+    height: 72px !important;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px !important;
+    padding: 15px 0 10px !important;
+  }
+
+  & .ant-menu-title-content {
+    margin: 0 !important;
+    font-size: 13px !important;
+  }
+
+  & .ant-menu-item-icon {
+    font-size: 18px !important;
+  }
+}
+
+.menu2 {
+  height: 100vh;
+
+  & .ant-menu-item>.ant-menu-title-content {
+    font-size: 13px !important;
+  }
+
+  & .ant-menu-item-only-child {
+    padding-left: 35px !important;
+    padding-right: 0px !important;
+  }
+}
+
+// 头部 header 样式
+.header {
+  padding: 0 30px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+
+  & .system-title {
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    background-image: -webkit-linear-gradient(left, rgb(0, 217, 255), rgb(225, 13, 215) 25%, rgb(22, 203, 235) 50%, rgb(225, 13, 215) 75%, rgb(22, 203, 235));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 200% 100%;
+  }
+
+  & .system-title {
+    animation: rainbow 6s infinite alternate;
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-position: 0 0
+    }
+
+    35% {
+      background-position: -35% 0
+    }
+
+    70% {
+      background-position: -70% 0
+    }
+
+    100% {
+      background-position: -100% 0
+    }
+  }
+
+  & .system-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  // 消息通知图标
+  & .system-icon {
+    margin: 0 30px;
+    color: gray;
+    font-size: 20px;
+
+    & :hover {
+      color: blue;
+    }
+  }
+
+  // 用户头像
+  & .user-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    margin: 0 10px;
+  }
+
+  // 用户状态图标
+  & .user-status .ant-badge-dot {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    background-color: #52c41a !important;
+    position: absolute;
+    top: 40px !important;
+    left: 40px !important;
+  }
+}
+
+// 作者微信
+.author {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 35px;
+  background-color: #000;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+
+  & .author-icon {
+    font-size: 20px;
+    color: #fff;
+  }
+}
+
+.author-wx {
+  width: 140px;
+  height: 140px;
+  margin-top: 10px;
+}

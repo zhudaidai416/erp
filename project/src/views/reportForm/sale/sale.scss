@@ -1,0 +1,28 @@
+// flex 横向排列
+@mixin row {
+  display: flex;
+  align-items: center;
+}
+
+.row-default {
+  padding-bottom: 12px;
+  .rItem {
+    padding-right: 10px;
+  }
+  .dataTip {
+    color: #ff0000;
+  }
+  @include row;
+}
+
+.row-reserve {
+  flex-direction: row-reverse;
+}
+
+.button-default {
+  color: #b0b0b0;
+}
+
+.ant-table-wrapper {
+  padding-bottom: 12px;
+}

@@ -1,0 +1,23 @@
+.staff-btnTop{
+    margin-bottom: 20px;
+} 
+.staff-form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    & > div {
+        font-size: 20px;
+    }
+} 
+
+.oddRow {
+    background-color: #fff;
+}
+.evenRow {
+    background-color: #f7f7f7;
+}
+.staff_table .ant-table-thead > tr >th{
+
+    background: rgb(230, 238, 214)  !important; 
+
+}

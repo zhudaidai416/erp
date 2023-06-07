@@ -1,0 +1,104 @@
+$gray: #f5f5f5;
+$blue: #006eff;
+$blueBack: #e6f1ff;
+.row-default {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.row-padding-time {
+  font-size: 12px;
+  padding-bottom: 20px;
+  p {
+    margin-right: 10px;
+  }
+  button {
+    margin-left: 10px;
+  }
+  .ant-picker {
+    height: 24px;
+  }
+}
+
+.row-padding-title {
+  height: 40px;
+  font-size: 13px;
+  padding-left: 9px;
+  margin-bottom: 20px;
+  background-color: $gray;
+  border-left: 5px solid $blue;
+  transition: 0.2s;
+  &:hover {
+    color: $blue;
+  }
+}
+
+.row-padding-sumBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .sumBox {
+    width: calc(20% - 15px);
+    border: 2px solid $blue;
+    border-radius: 6px;
+    background-color: $blueBack;
+    padding: 15px;
+    .title {
+      font-size: 13px;
+    }
+    .num {
+      font-size: 28px;
+      font-weight: 600;
+      color: $blue;
+    }
+  }
+}
+
+.row-padding-lineGraph {
+  height: 420px;
+  margin: 20px 0;
+}
+
+.button-time-default {
+  border: 1px solid #cdcdcd;
+  background-color: #ffffff;
+  cursor: pointer;
+  &:hover {
+    color: $blue;
+    border: 1px solid $blue;
+  }
+}
+
+.button-time-active {
+  color: $blue;
+  border: 1px solid $blue;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.row-block {
+  flex-wrap: wrap;
+  .block-item-frame {
+    width: calc(53.5% - 60px);
+    height: auto;
+    padding: 0 15px 15px 15px;
+    .block-item {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      .block-item-circleGraph {
+        width: 100%;
+        height: 350px;
+        box-sizing: content-box;
+      }
+      .ant-table-wrapper {
+        width: 100%;
+      }
+      th.analysis-tableHeader {
+        color: #fff;
+        background-color: $blue;
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.mian {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.addhang1 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    .biaoti {
+        font-size: 24px;
+    }
+    .bianhao {
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        right: 0;
+    }
+}
+.addhang2 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    .duojiselect {
+        display: flex;
+        align-items: center;
+        div {
+            margin-right: 10px;
+        }
+        .ant-cascader {
+            width: 150px;
+        }
+    }
+    .selectok {
+        display: flex;
+        align-items: center;
+        div {
+            margin-right: 10px;
+        }
+        .selectwidth {
+            width: 180px;
+        }
+        .ant-btn-lg {
+            height: 30px;
+        }
+        .ant-btn {
+            line-height: 1;
+        }
+    }
+}
+.addhang3 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    img {
+        width: 80px;
+        height: 80px;
+    }
+    .biaogefooter {
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .tableimg {
+        width: 80px;
+        height: 80px;
+    }
+    .ant-table-tbody > tr > td {
+        text-align: center;
+    }
+    .ant-table-thead > tr > th {
+        text-align: center;
+    }
+}
+.addhang4 {
+    display: flex;
+    .ant-input {
+        width: 160px;
+        height: 40px;
+    }
+    .seletext {
+        margin-right: 10px;
+    }
+    > div {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+        height: 40px;
+    }
+    .ant-select-single .ant-select-selector .ant-select-selection-item, .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+        line-height: 40px;
+    }
+}
+.addhang5 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    .ant-input {
+        width: 633px;
+        height: 40px;
+    }
+    > div {
+        margin-right: 10px;
+    }
+}
+.addhang6 {
+    display: flex;
+    margin-top: 20px;
+    > div {
+        margin-left: 20px;
+    }
+    .texttitle {
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.3);
+    }
+}
+.addhang7 {
+    width: 105%;
+    height: 80px;
+    margin-top: 20px;
+    background-color: #f5f9ff;
+    margin-left: -25px;
+}
+.addhang8 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    .moneynum {
+        font-size: 20px;
+        color: red;
+    }
+    .ant-input:placeholder-shown {
+        height:48px;
+        width: 120px;
+    }
+    .ant-btn {
+        height: 40px;
+    }
+    .buttcolor {
+        color: rgba(0, 0, 0, 0.5);
+    }
+    > div {
+        display: flex;
+        align-items: center;
+        >div {
+            display: flex;
+            align-items: center;
+            margin: 0 20px;
+            >div {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+.modal {
+    .ant-modal-content {
+    width: 800px !important;
+    height: auto;
+    }
+}
+
+.modalhang1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ant-form-item {
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .modalhang2 {
+        display: flex;
+        align-items: center;
+    }
+    >div {
+        margin: 0 10px;
+    }
+}
+.ant-modal-wrap {
+    .ant-modal-content {
+        width: 400px;
+    }
+}
